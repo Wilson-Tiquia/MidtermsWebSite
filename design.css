@@ -1,0 +1,140 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #202225;
+}
+header {
+    position: absolute;
+    top: 0px;
+}
+#logo{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -90px;
+    left: -70px;
+}
+nav{
+    color: #B8D5B8;
+    margin-top: -60pt;
+    text-align: center
+  
+  
+}
+nav ul {
+    list-style-type: none;
+    margin-top: -350px;
+    margin-left: 300px;
+   
+}
+nav li{
+    display: inline;
+    padding-left: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25pt;
+    color: azure;
+}
+#content {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+#content #tag-line{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80pt;
+    color: azure;
+}
+#content .subtext{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21pt;
+    color: azure;
+    position: inherit;
+    top: -40px;
+}
+#ways-to-help{
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.content .size {
+    width: 350px;
+    height: 350px;
+
+}
+.content .title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30pt;
+    padding-left: 20px;
+    color: azure;
+
+}
+.content .description{
+    font-family: 'Nato Sans', sans-serif;
+    font-size: 20pt;
+    padding-left: 20px;
+    color: azure;
+
+}
+#what-we-do{
+    position: relative;
+    background-color: #7956FF;
+    height: 650px;
+    width: 1800px;
+    top: 600px;
+    left: -10px;
+}
+#what-we-do p{
+    
+    font-family: 'Nato Sans', sans-serif;
+    font-size: 20pt;
+    color: azure;
+    padding-left: 270px;
+}
+#what-we-do h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80pt;
+    color: azure;
+    padding-left: 270px;
+    position: absolute;
+    top: -30px;
+}
+#trees{
+    color: #CBE558;
+}
+#what-we-do img{
+    position: relative;
+    left: 1030px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 550px;
+}
+
+#footer-contents img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+#footer-contents h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
+    color: azure;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+hr {
+    position: relative;
+    top: -80px;
+}
+#credits{
+    position: relative;
+    margin-top: 50px;
+}
