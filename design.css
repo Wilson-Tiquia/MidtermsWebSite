@@ -7,7 +7,7 @@ body{
     background-color: #202225;
 }
 header {
-    position: absolute;
+
     top: 0px;
 }
 #logo{
@@ -21,13 +21,13 @@ nav{
     color: #B8D5B8;
     margin-top: -60pt;
     text-align: center
-  
+    
   
 }
 nav ul {
     list-style-type: none;
     margin-top: -350px;
-    margin-left: 300px;
+    margin-left: -50px;
    
 }
 nav li{
@@ -37,9 +37,19 @@ nav li{
     font-size: 25pt;
     color: azure;
 }
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+nav  a:hover{
+    color:#CBE558;
+}
+.current-link {
+    color: #CBE558;
+}
 #content {
     position: relative;
-    top: 300px;
+    top: 150px;
     text-align: center;
 }
 #content #tag-line{
@@ -56,9 +66,10 @@ nav li{
 }
 #ways-to-help{
     position: relative;
-    top: 500px;
+    top: 300px;
     display: flex;
     justify-content: space-evenly;
+    height: 400px;
 
 }
 .content .size {
